@@ -22,27 +22,30 @@ Coefficients:
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 8.774 on 44 degrees of freedom
-Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825 
-F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
+| Residual standard error: | 8.774 on 44 degrees of freedom |
+| :---                     | :---                           |
+| Multiple R-squared:      | 0.7149                         |
+|Adjusted R-squared:       | 0.6825                         |
+|F-statistic:              | 22.07 on 5 and 44 DF           |
+|p-value:                  | 5.35e-11                       |
 
 
 #
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+**Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
 
-  The following variables provided a non-random amount of variance to the mpg:
+    The following variables provided a non-random amount of variance to the mpg:
     - (Intercept)
     - vehicle_length
     - ground_clearance
 
-Is the slope of the linear model considered to be zero? Why or why not?
+**Is the slope of the linear model considered to be zero? Why or why not?**
  
-The slope of this linear model is not considered to be zero because at least one of the variables provided a non-random amount of variance.
+    The slope of this linear model is not considered to be zero because at least one of the variables provided a non-random amount of variance.
 
 
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
-- Yes this linear model can predict the mpg of a car effectively. This is becase the R- squared is 0.7149. This means around 70% of the time mpg can be predicted.
+    Yes this linear model can predict the mpg of a car effectively. This is becase the R- squared is 0.7149. This means around 70% of the time mpg can be predicted.
 
 #
 
